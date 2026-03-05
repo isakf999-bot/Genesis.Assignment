@@ -1,0 +1,30 @@
+.Group_section {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+.Group_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+}
+
+.Group_title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 38px;
+    width: 635px;
+    height: 106px;
+}
+
+.Group_item {
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    grid-template-columns: repeat(2fr, 1fr);
+}

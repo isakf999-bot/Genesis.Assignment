@@ -1,0 +1,63 @@
+.Awards_container {
+    border-top: 1px solid #979797;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: 411px;
+}
+
+.Awards_title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    color: black;
+}
+
+.Awards_subtitle {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    color: black;
+}
+
+.Awards_name {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    color: black;
+}
+
+.Awards_year {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    color: black;
+}
+
+.Awards_genesis {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    color: black;
+}
+
+.Awards_Navigation {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    color: black;
+}
+
+.Awards_Template {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    color: black;
+}
+
+.Awards_2018 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    color: black;
+}
+
+.Awards_Description {
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    color: black;
+}
