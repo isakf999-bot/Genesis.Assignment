@@ -1,7 +1,6 @@
 
 .grid_container {
     display: grid;
-    /* match Figma's 9‑column layout; each track equal width */
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     gap: 2rem;

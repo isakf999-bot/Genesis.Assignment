@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.website_container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.Nav_bar {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Nav_bar_ul {
+  max-width: 1110px;
+  width: 100%;
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Nav_bar_li {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.35px;
+}
+
+.Nav_bar_a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.Nav_bar_a:hover {
+  padding: 5px;
+  background-color: #f1f1f1;
+}
+
+.header_content {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  max-width: 475px;
+  width: 100%;
+  height: 174px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 55px;
+  color: #111111;
+}
+
+.header_text {
+  max-width: 445px;
+  width: 100%;
+  height: 56px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #111111;
+  opacity: 80%;
+}
+
+.heading {
+  display: flex;
+}
+
+.forms_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+label {
+  max-width: 475px;
+  width: 100%;
+  height: 37px;
+}
+
+input {
+  margin-top: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+}
+
+.Send-btn {
+  max-width: 125px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: auto;
+  color: #ffffff;
+  background-color: #4A4FF2;
+  border: none;
+  margin-top: 22px;
+}
+
+.Send-btn:hover {
+  background-color: #1db832;
+}
+
+.image_container {
+  margin-top: 95px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Links, a {
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.Navigation_footer:hover {
+  background-color: #bebebe;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Logo_footer {
+  margin-top: 100px;
+}
+
+.Socials {
+  margin-top: 100px;
+}/*# sourceMappingURL=contact.css.map */
