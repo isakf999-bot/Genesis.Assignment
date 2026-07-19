@@ -8,11 +8,16 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
+    font-family: 'Mulish', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .website_container {
     width: 1110px;
+    max-width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
     
 
@@ -107,7 +112,111 @@ body {
         width: 100%;
         height: 24px;
         font-style: italic;
-        
+
+    }
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1150px) {
+    .website_container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .Group_section {
+        width: 100%;
+    }
+
+    .awards_container,
+    .design_container {
+        padding: 0;
+    }
+
+    .grid_awards,
+    .grid_design {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Nav_bar {
+        margin-top: 28px;
+    }
+
+    .Heading {
+        margin-top: 28px;
+    }
+
+    .Heading_h2 {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .Heading_h1,
+    .Heading_p {
+        height: auto;
+    }
+
+    .grid_container {
+        gap: 1rem;
+    }
+
+    .Group_section {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .Group_title {
+        width: 100%;
+        height: auto;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .awards_container,
+    .design_container {
+        margin-top: 56px;
+    }
+
+    .grid_awards,
+    .grid_design {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 4px;
+    }
+
+    .awards_ui,
+    .awards_template,
+    .awards_best,
+    .design_ui,
+    .design_template,
+    .design_best {
+        grid-column: auto;
+        margin-top: 12px;
+    }
+
+    .awards_date,
+    .awards_date--two,
+    .design_date,
+    .design_date--two {
+        text-align: left;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Heading_h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .Group_container {
+        grid-template-columns: 1fr;
     }
 }
 
